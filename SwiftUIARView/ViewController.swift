@@ -37,7 +37,7 @@ class ViewController: UIViewController, ARSCNViewDelegate {
         // this tells ARKit how many images it is supposed to track simultaneously, ARKit can do upto 100
         configuration.maximumNumberOfTrackedImages = 1
     }
-        let videoInput = try AVCaptureDeviceInput(device: sceneView.device)
+        //let videoInput = try AVCaptureDeviceInput(device: sceneView.device)
         
     // Run the view's session
     sceneView.session.run(configuration)
